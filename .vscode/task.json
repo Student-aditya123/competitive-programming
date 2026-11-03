@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C++ Test",
+            "type": "shell",
+            "command": "g++ main.cpp -o main.exe && main.exe < input.in > output.out",
+            "problemMatcher": []
+        }
+    ]
+}
