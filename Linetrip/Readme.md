@@ -47,9 +47,9 @@ For each test case, print one integer — the minimum possible volume of the gas
  ## gyaan ki baat...
  1. it is actually a **maximum distance between consecutive points** problem.
  2. find the minimum possible capacity of tank. **NOT find total consume gasoil in whole journey.**
-$$
- \boxed{\max\left(a_1,\ a_2-a_1,\ \ldots,\ a_n-a_{n-1},\ 2(x-a_n)\right)}
-$$
+**Minimum Tank Capacity:**
+
+`max(a[0], a[1]-a[0], ..., a[n-1]-a[n-2], 2*(x-a[n-1]))`.
 
 3. **Why multiply by 2?**
 
